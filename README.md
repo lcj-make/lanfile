@@ -13,9 +13,9 @@
 ## 安装包指纹（SHA-256 实算）
 
 ```
-7d2732c96120c5b93a8fcc52bf8e4b131eadf37b5d47f99425f5da1163b37dc5  lanfile-0.4-macos-arm64.dmg
-8e54b526dd55f28c706454c9a717cc84f6f55e71ff7713a8b1efe24338271fb4  lanfile-0.4-macos-amd64.dmg
-047ccc678c12abdd16b6854b5f07feaedc455530433fa2ea9b866c1d278c2d64  lanfile-0.4-windows-x64.zip
+1477240ceccf64c6fe7c3eb9e76397a40faaf1bd69a09da7f4b1cc9ac339b03c  lanfile-0.5-macos-arm64.dmg
+fa9ac85627c9353b6b69318a3b970df62f7a0a5a0cb08017f69776a9a17ca31e  lanfile-0.5-macos-amd64.dmg
+ff4781bb76bd53c163fd602fbe91efe511709e019ea9b303469058b45e41a517  lanfile-0.5-windows-x64.zip
 ```
 
 站点通过 GitHub Pages 自动部署（`.github/workflows/deploy.yml`，push 到 `main` 即生效）。

@@ -210,43 +210,43 @@
       </div>
       <div>
         <h3>大文件断了能接着传</h3>
-        <p>传输带 ID，中断之后重连会从断点继续，而不是从零重来。开了 <code>-keepalive</code> 也会维持连接。</p>
+        <p>传输带 ID，中断之后重连会从断点继续，而不是从零重来。后端常驻运行，页面关了也不影响接收。</p>
       </div>
     </div>
   </section>
 
   <section id="download">
-    <div class="sec-head"><h2>下载</h2><span>v0.4</span></div>
+    <div class="sec-head"><h2>下载</h2><span>v0.5</span></div>
     <div class="dl-list">
 
       <div class="dl-row">
         <div>
           <div class="dl-name">macOS · Apple 芯片（arm64）</div>
-          <div class="dl-file">lanfile-0.4-macos-arm64.dmg</div>
-          <div class="hash"><code>7d2732c96120c5b93a8fcc52bf8e4b131eadf37b5d47f99425f5da1163b37dc5</code><button class="copy" data-hash="7d2732c96120c5b93a8fcc52bf8e4b131eadf37b5d47f99425f5da1163b37dc5">复制</button></div>
+          <div class="dl-file">lanfile-0.5-macos-arm64.dmg</div>
+          <div class="hash"><code>1477240ceccf64c6fe7c3eb9e76397a40faaf1bd69a09da7f4b1cc9ac339b03c</code><button class="copy" data-hash="1477240ceccf64c6fe7c3eb9e76397a40faaf1bd69a09da7f4b1cc9ac339b03c">复制</button></div>
         </div>
         <div class="dl-size">3.0 MB</div>
-        <div><a class="dl-btn" href="downloads/lanfile-0.4-macos-arm64.dmg" download>下载 ↓</a></div>
+        <div><a class="dl-btn" href="downloads/lanfile-0.5-macos-arm64.dmg" download>下载 ↓</a></div>
       </div>
 
       <div class="dl-row">
         <div>
           <div class="dl-name">macOS · Intel 芯片（amd64）</div>
-          <div class="dl-file">lanfile-0.4-macos-amd64.dmg</div>
-          <div class="hash"><code>8e54b526dd55f28c706454c9a717cc84f6f55e71ff7713a8b1efe24338271fb4</code><button class="copy" data-hash="8e54b526dd55f28c706454c9a717cc84f6f55e71ff7713a8b1efe24338271fb4">复制</button></div>
+          <div class="dl-file">lanfile-0.5-macos-amd64.dmg</div>
+          <div class="hash"><code>fa9ac85627c9353b6b69318a3b970df62f7a0a5a0cb08017f69776a9a17ca31e</code><button class="copy" data-hash="fa9ac85627c9353b6b69318a3b970df62f7a0a5a0cb08017f69776a9a17ca31e">复制</button></div>
         </div>
         <div class="dl-size">3.3 MB</div>
-        <div><a class="dl-btn" href="downloads/lanfile-0.4-macos-amd64.dmg" download>下载 ↓</a></div>
+        <div><a class="dl-btn" href="downloads/lanfile-0.5-macos-amd64.dmg" download>下载 ↓</a></div>
       </div>
 
       <div class="dl-row">
         <div>
           <div class="dl-name">Windows · x64</div>
-          <div class="dl-file">lanfile-0.4-windows-x64.zip</div>
-          <div class="hash"><code>047ccc678c12abdd16b6854b5f07feaedc455530433fa2ea9b866c1d278c2d64</code><button class="copy" data-hash="047ccc678c12abdd16b6854b5f07feaedc455530433fa2ea9b866c1d278c2d64">复制</button></div>
+          <div class="dl-file">lanfile-0.5-windows-x64.zip</div>
+          <div class="hash"><code>ff4781bb76bd53c163fd602fbe91efe511709e019ea9b303469058b45e41a517</code><button class="copy" data-hash="ff4781bb76bd53c163fd602fbe91efe511709e019ea9b303469058b45e41a517">复制</button></div>
         </div>
         <div class="dl-size">3.2 MB</div>
-        <div><a class="dl-btn" href="downloads/lanfile-0.4-windows-x64.zip" download>下载 ↓</a></div>
+        <div><a class="dl-btn" href="downloads/lanfile-0.5-windows-x64.zip" download>下载 ↓</a></div>
       </div>
 
     </div>
@@ -270,13 +270,13 @@
       </details>
       <details>
         <summary>传输中断了要重来吗？</summary>
-        <p>不用。每次传输都有 ID，重连之后会从断点继续；加 <code>-keepalive</code> 可以维持长连接。</p>
+        <p>不用。每次传输都有 ID，重连之后会从断点继续；后端常驻后台，页面只是操作入口。</p>
       </details>
     </div>
   </section>
 
   <footer>
-    <span>lanfile v0.4 · 局域网原样文件传输</span>
+    <span>lanfile v0.5 · 局域网原样文件传输</span>
     <span>SHA-256 双端校验 · 2026</span>
   </footer>
 </div>
