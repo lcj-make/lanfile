@@ -9,6 +9,7 @@
 - `index.html` — 站点唯一页面（自包含 CSS/JS）
 - `assets/` — 发送端 / 接收端的真实界面截图（900px JPEG）
 - `downloads/` — 三个安装包（macOS arm64 / macOS amd64 / Windows x64）
+- `app/` — 桌面端程序源码（Go 后端 + 内嵌 Web 前端，构建说明见 `app/README.md`）
 
 ## 安装包指纹（SHA-256 实算）
 

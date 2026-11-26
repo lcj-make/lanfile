@@ -1,0 +1,15 @@
+# 编译与打包产物
+build/
+dist/
+bin/
+*.exe
+*.dmg
+*.zip
+*.syso
+
+# 接收的测试文件
+received/
+
+# 系统文件
+.DS_Store
+*.tmp
